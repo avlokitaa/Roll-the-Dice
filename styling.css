@@ -1,0 +1,38 @@
+#container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-color: rgb(216, 216, 254);
+}
+button{
+    font-size: 1rem;
+    background-color: rgb(96, 8, 154);
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{background-color:  rgb(124, 43, 179)  ;}
+button:active{background-color: rgb(188, 140, 221);}
+input{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+h6{
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(127, 25, 40);
+    text-align: center;
+    font-size: medium;
+}
+#DiceResult{ margin: 25px; }
+#DiceImages img{
+    width: 150px;
+    margin: 5px;
+}
